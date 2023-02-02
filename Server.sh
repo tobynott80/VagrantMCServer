@@ -28,8 +28,10 @@ touch eula.txt
 echo eula=true >> eula.txt
 
 echo "Creating startup script"
+cd
 touch startup.sh
 sudo chmod +x startup.sh
 echo '#!/bin/bash' >> startup.sh
+echo 'cd mc/' >> startup.sh
 echo 'sudo java -Xmx1024M -Xms1024M -jar server.jar nogui' >> startup.sh
 
