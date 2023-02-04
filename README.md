@@ -18,4 +18,5 @@ Simple vagrant file to automatically install a minecraft server on Rocky 9.
 5. Start the server
 
     `cd mc`
+    
     `./startup.sh`
