@@ -2,6 +2,13 @@
 
 Simple vagrant file to automatically install a minecraft server on Rocky 9. 
 
+## Requirements
+- 8Gb Ram 
+- Vagrant
+- VirtualBox
+
+## Installation
+
 1. Clone this repo
 2. Ensure Vagrant is installed
 
